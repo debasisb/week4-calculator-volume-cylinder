@@ -24,7 +24,7 @@ app.post("/", function(req, res){
 
 // does the computation of the input variables, as numbers
 //This is a new comment that is gor GitHub
-  var volCylinder = Math.PI * Math.pow(num1, 2) * num2;
+  var volCylinder = Math.PI * Math.pow(num1, 2) * num2;            // formula works
 
 // sends the results back to the web page as string
   res.send("The volume of the cylinder is " + volCylinder.toFixed(2));
