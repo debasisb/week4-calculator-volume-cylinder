@@ -1,4 +1,5 @@
 //jshint esversion:6
+//Just a simple note
 
 // create an express object from the express package
 const express = require("express");
