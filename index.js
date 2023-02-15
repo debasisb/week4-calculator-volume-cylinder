@@ -1,4 +1,5 @@
 //jshint esversion:6
+//Let's update this to make a multidimensional cylinder, one that spans time and space
 
 // create an express object from the express package
 const express = require("express");
@@ -18,7 +19,7 @@ app.get("/VolCalc", function(req, res) {
 // this gets the response from the values in the web page
 app.post("/", function(req, res){
 
-//use n1 for radium and n2 for height
+//use n1 for radius and n2 for height
   var num1 = Number(req.body.n1);
   var num2 = Number(req.body.n2);
 
@@ -27,7 +28,7 @@ app.post("/", function(req, res){
   var volCylinder = Math.PI * Math.pow(num1, 2) * num2;
 
 // sends the results back to the web page as string
-  res.send("The volume of the cylinder is " + volCylinder.toFixed(2));
+  res.send("(DRUMROLL, PLEASE...) And the Final calculation of your volume is..... " + volCylinder.toFixed(2));
 })
 //this gets the response from the web page to this placeholder
 
