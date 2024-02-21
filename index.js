@@ -23,7 +23,8 @@ app.post("/", function(req, res){
   var num2 = Number(req.body.n2);
 
 // does the computation of the input variables, as numbers
-//This is a new comment that is gor GitHub
+// This code calculates the volume of a cylinder using the formula
+// Marh.PI represents the math constant Pi. Math.pow calculates the square of the radius
   var volCylinder = Math.PI * Math.pow(num1, 2) * num2;
 
 // sends the results back to the web page as string
