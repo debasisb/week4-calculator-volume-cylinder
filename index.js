@@ -3,6 +3,9 @@
 // create an express object from the express package
 const express = require("express");
 const bodyParser = require("body-parser");
+// This is a single-line comment
+// write some code to print "Hello World" to the console below
+console.log("Hello World");
 
 // create an app object from the express object
 const app = express();
